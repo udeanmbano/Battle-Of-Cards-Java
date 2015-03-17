@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>JavaAssignment</title>
+        <vendor>MbanoUdean</vendor>
+        <homepage href=""/>
+        <description>JavaAssignment</description>
+        <description kind="short">JavaAssignment</description>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se java-vm-args="-Djava.security.policy=applet.policy" version="1.7+"/>
+        <jar href="JavaAssignment.jar" main="true"/>
+    </resources>
+    <applet-desc height="300" main-class="DisplayLabel" name="JavaAssignment" width="300">
+    </applet-desc>
+</jnlp>

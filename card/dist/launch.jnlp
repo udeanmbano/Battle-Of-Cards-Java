@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>War_card_g2053283122007</title>
+        <vendor>MbanoUdean</vendor>
+        <homepage href=""/>
+        <description>War_card_g2053283122007</description>
+        <description kind="short">War_card_g2053283122007</description>
+    <icon href="felicia_baghdad.gif" kind="splash"/>
+</information>
+    <update check="always"/>
+    <resources>
+        <j2se java-vm-args="-Djava.security.policy=applet.policy" version="1.7+"/>
+        <jar href="War_card_g2053283122007.jar" main="true"/>
+    </resources>
+    <applet-desc height="300" main-class="DisplayLabel" name="War_card_g2053283122007" width="300">
+    </applet-desc>
+</jnlp>
